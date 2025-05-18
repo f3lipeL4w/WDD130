@@ -1,0 +1,123 @@
+/* ===== Container Styling ===== */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* ===== Background Styling ===== */
+#background {
+    height: 725px;
+    background-color: #e6f2f2; /* Example color — change as needed */
+}
+
+/* ===== Body and Header Background Colors ===== */
+body {
+    background-color: #fcfbfb;
+}
+
+header {
+    background-color: rgba(20, 30, 13, 0.7);
+}
+
+/* ===== Navigation Styling ===== */
+nav a {
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #d9c2a3;
+    background-color: black;
+    transition: 0.3s;
+}
+
+nav a, 
+#hero-msg h1,
+#hero-msg h4,
+.button-box,
+main section {
+    text-align: center;
+}
+
+/* ===== Button Styling ===== */
+.book,
+.join {
+    background-color: #4CAF50; /* Primary button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book:hover,
+.join:hover {
+    background-color: #388E3C; /* Button hover color */
+}
+
+/* ===== Hero Image ===== */
+#hero-img {
+    width: 100%;
+    display: block;
+}
+
+/* ===== Logo and Icons ===== */
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+/* ===== Message Section ===== */
+.msg {
+    background-color: #f2f2f2; /* Light neutral background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.msg h2,
+.msg p {
+    color: #333;
+}
+
+/* ===== Home Page Titles ===== */
+.home-title {
+    font-size: 2.5em;
+    color: #2e2e2e;
+    margin-top: 20px;
+}
+
+/* ===== Footer Styling ===== */
+footer {
+    background-color: #333;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+/* ===== Utility Classes ===== */
+.button-box {
+    margin-top: 20px;
+}
