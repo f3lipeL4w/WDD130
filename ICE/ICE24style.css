@@ -5,7 +5,7 @@ body {
 }
 
 .hero {
-  background: url('w05_circles.jpg') no-repeat center center;
+  background: url('/wwr/images/w05_circles.jpg') no-repeat center center;
   background-size: cover;
   height: 50vh;
   color: #333;
