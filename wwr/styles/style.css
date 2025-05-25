@@ -83,6 +83,13 @@ main section {
     padding-top: 10px;
 }
 
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+margin: 200px 0;
+}
+
 /* ===== Message Section ===== */
 .msg {
     background-color: #f2f2f2; /* Light neutral background */
