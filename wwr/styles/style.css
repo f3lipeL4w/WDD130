@@ -50,14 +50,12 @@ main section {
 .book,
 .join {
     background-color: #4CAF50; /* Primary button color */
-    color: white;
-    padding: 15px 30px;
+    color: black;
     text-decoration: none;
-    margin-top: 50px;
-    display: inline-block;
     font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
     border-radius: 5px;
-    cursor: pointer;
 }
 
 .book:hover,
@@ -84,9 +82,10 @@ main section {
 }
 
 .card-img {
-    width: 100%;
+    width: 500;
     height: auto;
     border-radius: 10px;
+    border: 10px solid #d9c2a3;
 margin: 200px 0;
 }
 
