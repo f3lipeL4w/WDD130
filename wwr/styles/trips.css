@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Orbit&family=Roboto:wght@300&display=swap')
+
+:root {
+    --primary-color: #094074;
+    --secondary-color: #eae270;
+    --accent1-color: #E88873;
+    --accent2-color: #F8F8F8;
+    --heading-font: "Roboto" sans;
+    --paragraph-font: "Nanum Gothic" sans;
+    --nav-background-color: #F8F8F8;
+    --nav-link-color: #094074;
+    --nav-hover-link-color: #3C8DDF;
+    --nav-hover-background-color: #F8F8F8;
+}
+
+body{
+    background:#E88873;
+
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    background:#094074;
+    padding: 10px;
+}
+nav a {
+    color:#F8F8F8;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav img{
+    float: left;
+    
+}
+main img{
+    padding-left: 75px;
+}
+
+p {
+    background-color: lightgrey;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+img {
+    padding-left: 75px;
+}
+footer{
+    background:#F7EF81;
+}
+.dcolor {
+    background:#094074;
+}
+a:link {
+    color:#F8F8F8;
+    background-color: transparent;
+    text-decoration: none;
+  }
+table, th, td {
+    border:5px solid #094074;
+    background: #F7EF81;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.center {
+    text-align: center;
+}
+  
