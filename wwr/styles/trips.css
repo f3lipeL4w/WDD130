@@ -3,8 +3,8 @@
 
 :root {
     --primary-color: #094074;
-    --secondary-color: #eae270;
-    --accent1-color: #E88873;
+    --secondary-color: #03045E;
+    --accent1-color: #5997cd;
     --accent2-color: #F8F8F8;
     --heading-font: "Roboto" sans;
     --paragraph-font: "Nanum Gothic" sans;
@@ -15,7 +15,7 @@
 }
 
 body{
-    background:#E88873;
+    background:#e7be44;
 
 }
 .header {
@@ -51,7 +51,7 @@ img {
     padding-left: 75px;
 }
 footer{
-    background:#F7EF81;
+    background:#e5ead2;
 }
 .dcolor {
     background:#094074;
@@ -62,8 +62,8 @@ a:link {
     text-decoration: none;
   }
 table, th, td {
-    border:5px solid #094074;
-    background: #F7EF81;
+    border:5px solid #76a3ce;
+    background: #a2a3ff;
     margin-left: auto;
     margin-right: auto;
   }
