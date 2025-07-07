@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
+    <title>About Us</title>
+</head>
+<body>
+    <div id="content">
+    <header>
+        
+        <nav id="navbar" >
+            <a id="logo_link" href="index.html">
+                <img class="Wellhome-logo" src="Wellhome-images/ChatGPT Image Jun 9, 2025, 10_47_15 AM.png" alt="wellhome logo">
+            </a>
+            <a href="index.html">Home</a>
+            <a href="faq.html">FAQ</a>
+            <a href="about-us.html">About Us</a>
+        </nav>
+    </header>
+    <main class="contact-form">
+        <h1>About Us</h1>
+        <h3>Chama!</h3>
+        <div class="contact-photo">
+            <img src="Wellhome-images/127484121_3139955519444027_4995427885047264874_n.jpg" alt="craft 1" >
+            <img src="Wellhome-images/504900455_9446066182166231_550928786131036278_n.jpg" alt="craf2 2" >
+            
+            
+        </div>
+        <div class="back-info">
+    <article class="contact-info">
+        <h2>Sobre Informacoes de Contato</h2>
+        <p>Essa pagina é pra me contatar</p>
+         Nao me contatar se:
+        </p>- Quiser me cobrar</p>
+        </p>- Quiser me encher o saco</p>
+        </p>- For o Master Sargeant Farmer</p>
+        </p>- For sobre esquema em piramide </p>        
+        <article class="contact-info"  id="contact-info1">
+        <p>Fora isso, CHAMA!</p>
+        <ul>
+            <li><strong>Phone:</strong> <a href="tel:+12089481366">+1 2089481366</a></li>
+            <li><strong>Email:</strong> <a href="felipelawlds@gmail.com">felipelawlds@gmail.com</a></li>
+        </ul>
+        <a href="https://wa.me/+12089481366" target="_blank" class="whatsapp-button">Chat on WhatsApp</a>
+    </article>
+    </article>
+
+    
+    <div id="feedback"></div>
+    <h2>Contact Us</h2>
+    <form class="form1" method="post" id="contactForm">
+        <label for="user_name">Seu Nome:</label>
+        <input type="text" id="user_name" name="user_name" placeholder="Your name" required>
+
+        <label for="email">Seu Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+
+        <label for="message">Sua Mensagem:</label>
+        <textarea id="message" name="message" placeholder="Your message"></textarea>
+
+        <input type="submit" value="Send">
+    </form>
+</div>
+    <div >
+        <h3>Receba Um Mapa De Sao Paulo</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1724.3293114870032!2d-46.526241108018226!3d-23.72833505744385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sbr!4v1700354149188!5m2!1ses-419!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </main>
+  
+        <footer>
+            <p> FA WellHome © 2025 - Felipe Alves </p> <nav> <a href="about-us.html">About Us</a>
+                <a href="site-plan.html">Site plan</a>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="Wellhome-images/facebook.png" alt="fb icon">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="Wellhome-images/twitter.png" alt="twitter icon">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="Wellhome-images/instagram.png" alt="instagram icon">
+                    </a>
+                </div>
+            </nav>
+                </footer>
+            </div>
+                <script>
+                    // get the feedback div element so we can do something with it.
+                    const feedbackElement = document.getElementById('feedback');
+                    // get the form so we can read what was entered in it.
+                    const formElement = document.getElementById('contactForm');
+                    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+                    formElement.addEventListener('submit', function(e) {
+                        // stop the form from doing the default action.
+                        e.preventDefault();
+                        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                        feedbackElement.innerHTML = 'Hello ' + formElement.name.value + '! Thank you for your message. We will get back with you as soon as possible!';
+                        // make the feedback element visible.
+                        feedbackElement.style.display = "block";
+                        // add a class to move everything down so our message doesn't cover it.
+                        document.body.classList.toggle('moveDown');
+                    });
+                </script>  
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        window.addEventListener("scroll", function () {
+            var body = document.querySelector("body");
+            var scrollPosition = window.scrollY;
+
+            if (scrollPosition > 50) {
+                body.classList.add("scrolled");
+            } else {
+                body.classList.remove("scrolled");
+            }
+        });
+    });
+</script>
+<link rel="stylesheet" href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css">
+<a id="robbu-whatsapp-button" class="rigth" target="_blank" href="https://api.whatsapp.com/send?phone=12089481366&text=Hello">
+  <div class="rwb-tooltip">Whatsapp</div>
+  <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg" alt="whatsapp-button">
+</a>       
+ 
+</body>
+</html>

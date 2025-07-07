@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Poppins&display=swap');
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    padding: 0 30px;
+    background-color: #3b6e9da7;
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    align-items: stretch; /* ensure links stretch */
+    gap: 150px;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* stretch full height of nav */
+    padding: 0 20px;
+    text-decoration: none;
+    background-color: #3b6e9da7;
+    color: #fbfeff;
+    font-family: "Courgette", "Raleway", Helvetica;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background-color: #2e7dbd;
+    color: #fafaf9;
+}
+
+
+#logo_link {
+    display: flex;
+    align-items: center;
+}
+
+#logo_link img {
+    height: 100px;
+    width: auto;
+}
+
+body {
+    background-color: #8dbc20;
+}
+
+h1 {
+    Color: #108b8f;
+    font-size: 45px;
+    font-family: "Courgette", "Raleway", Helvetica;
+}
+
+#hero-msg {
+    text-align: center;
+}
+
+#hero-img {
+    border: 10px solid #108b8f; 
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    padding: 30px;
+}
+
+#Introduction-card {
+    background-color: #108b8f;
+    width: 500px;
+    height: 130px;
+    padding: 10px;
+    color: #fffcf2;
+    font-size: large;
+    text-align: center;
+    margin: 60px auto 0 auto;
+    font-family: "Raleway", "Courgette", Helvetica;
+}
+
+#wellhome-card {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 60px;
+}
+
+#well-info-card {
+    background-color: #108b8f;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    color: #fffcf2;
+    font-size: large;
+    text-align: center;
+    font-family: "Raleway", "Courgette", Helvetica;
+    margin-top: 30px;
+    margin-left: 450px;
+}
+
+#purpose-info-card {
+    background-color: #108b8f;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    color: #fffcf2;
+    font-size: large;
+    text-align: center;
+    font-family: "Raleway", "Courgette", Helvetica;
+    margin-top: 30px;
+    margin-left: 450px;
+}
+
+h2 {
+    Color: #4698e6;
+    font-size: 35px;
+    font-family: "Courgette", "Raleway", Helvetica;
+}
+
+#get-started-msg {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#get-started-msg a {
+    background-color: #108b8f;
+    color:#f6f3ef;
+    text-decoration: none;
+    font-family: "Raleway", "Courgette", Helvetica;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+#get-started-msg a:hover {
+    background-color: #3b6e9da7;
+    color: #fffcf2;
+}
+
+#footer-logo {
+    display: block;
+    margin: auto;
+    height: 150px;
+}
+
+footer {
+    background-color: #2e7dbd;
+    color: #fffefb;
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+}
+
+
+footer p {
+    margin: 5px 0;
+    flex: 1 1 200px;
+    font-size: medium;
+    font-family: "Raleway", "Courgette", Helvetica;
+
+}
+
+footer a {
+    color: #fffcf2;
+    text-decoration: none;
+    font-size: medium;
+    font-family: "Raleway", "Courgette", Helvetica;
+
+}
+
+footer a:hover {
+    color: #9f7542;
+}
+
+.social {
+    flex: 1 1 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+}
+
+#content > main > section:nth-child(1) > h2{color: #FFF;
+text-align: center;}
+
+.craft1 > p{
+    text-align: justify;}
+    .craft2 > p{
+            text-align: justify;}
+            #craft1 > ul > li{text-align: justify;
+            text-decoration: none;
+}
+
+.question {
+    position: relative;
+    color: #FFF; 
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+
+#question1,
+#question2,
+#question3 {
+    position: relative;
+}
+
+#question1::before,
+#question2::before,
+#question3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://F3lipeL4w/') center/cover no-repeat;
+    opacity: 0.3; 
+    z-index: -1; 
+}
+/* Remember to find some pictures to use it in the background later/*
+
+
+.question h3,
+.question p {
+    z-index: 1; 
+}
+
+.question h3 {
+    color: #FFF; 
+}
+
+.question p {
+    color: #FFF; 
+}
+
+#question3:hover{
+    background: #2e7dbd;
+}
+#question2:hover{
+    background: #2e7dbd;
+}
+#question1:hover{
+    background: #2e7dbd;
+}
+#question3 p{
+    text-align: justify;
+}
+#question2 p{
+    text-align: justify;
+}
+#question1 p{
+    text-align: justify;
+}
